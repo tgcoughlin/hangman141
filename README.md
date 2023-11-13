@@ -14,5 +14,9 @@ The aim of the project is to create a Hangman game using python.
 ## Usage Instructions:
 
 ## File Structure of Project:
+milestone_2.py has tested several core functions, namely:
+
+- generating a random word
+- asking the user for an input guess (a single letter of the alphabet) - then chekcing that this is a single character and that it is a letter; using the .isalpha() function.
 
 ## Licence Information:
