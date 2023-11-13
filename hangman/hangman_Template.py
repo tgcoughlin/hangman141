@@ -69,9 +69,9 @@ class Hangman:
       
         '''
         if letter in self.word:
-            for i in range(len(self.word)):
-                if self.word[i] == letter:
-                    self.word_guessed[i] = letter
+            for character_index in range(len(self.word)):
+                if self.word[character_index] == letter:
+                    self.word_guessed[character_index] = letter
                     
 
             self.num_letters -= 1
