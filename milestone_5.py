@@ -52,9 +52,11 @@ def play_game(word_list):
     while True:
         if game.num_lives == 0:
             print(f"GAME OVER! The answer was {game.word}")
+            break
+        
         elif game.num_letters > 0:
              game.ask_for_input()
-        
+                     
         else:
             if game.num_lives > 0 and game.num_letters == 0:
                 print(f"Congratulations you won the game! The answer was {game.word}")
